@@ -1,1 +1,29 @@
-
+{
+    "fskey": "Test123",
+    "name": "Test 123",
+    "description": "Test plugin made by hariyanto",
+    "author": "Hariyanto",
+    "website": "$AUTHOR_URL$",
+    "versions": {
+        "regular": "1.0.0",
+        "extended": "1.0.0"
+    },
+    "prices": {
+      "usd": {
+        "regular": 5,
+        "extended": 10, 
+        "upgrade": {
+          "regular": 2,
+          "extended": 5           
+        }
+      }
+    },
+    "providers": [
+        "Plugins\\Market\\Providers\\PluginServiceProvider",
+        "Plugins\\Market\\Providers\\AppServiceProvider",
+        "Plugins\\Market\\Providers\\EventServiceProvider",
+        "Plugins\\Market\\Providers\\RouteServiceProvider"
+    ],
+    "autoloadFiles": [],
+    "aliases": []
+}
