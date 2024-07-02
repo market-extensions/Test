@@ -10,7 +10,7 @@
     },
     "prices": {
       "usd": {
-        "regular": 5,
+        "regular": 0,
         "extended": 10, 
         "upgrade": {
           "regular": 2,
