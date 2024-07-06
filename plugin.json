@@ -16,6 +16,14 @@
           "regular": 2,
           "extended": 5           
         }
+      },
+      "idr": {
+        "regular": 50000,
+        "extended": 100000, 
+        "upgrade": {
+          "regular": 20000,
+          "extended": 50000
+        }
       }
     },
     "providers": [
